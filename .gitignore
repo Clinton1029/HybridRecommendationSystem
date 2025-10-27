@@ -1,0 +1,65 @@
+# ---------------------
+# Python
+# ---------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs & Outputs
+logs/
+*.log
+
+# Model files
+models/
+*.h5
+*.pt
+*.sav
+
+# Dataset cache (raw might be huge)
+data/raw/*.zip
+data/raw/*.tar
+data/raw/*.gz
+
+# Temp or processed files (optional)
+data/processed/
+
+# ---------------------
+# VS Code
+# ---------------------
+.vscode/
+*.code-workspace
+
+# ---------------------
+# OS files
+# ---------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------
+# Pip cache
+# ---------------------
+pip-wheel-metadata/
+__pycache__/
+*.egg-info/
+*.egg
+.eggs/
+
+# ---------------------
+# Reports / exported files
+# ---------------------
+*.csv
+*.xlsx
+*.pdf
+*.html
